@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosRequestConfig, Method } from 'axios';
 import bath from 'bath-es5';
 import { parse as parseJSONSchema, dereference } from '@apidevtools/json-schema-ref-parser';
-import RefParser from '@apidevtools/json-schema-ref-parser';
+import RefParser = require ('@apidevtools/json-schema-ref-parser');
 import dereferenceSync from '@apidevtools/json-schema-ref-parser/lib/dereference';
 import RefParserOptions from '@apidevtools/json-schema-ref-parser/lib/options';
 import QueryString from 'query-string';
